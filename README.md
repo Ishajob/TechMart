@@ -1,5 +1,3 @@
-# TechMart
-Canvas CSS Advanced 4-1: Creating a page with what we learned in CSS Adv
 This webpage is  helps you to bring all your knowledge together in one place. 
 We are going to use 
   HTML:
@@ -12,7 +10,8 @@ We are going to use
     Dark mode, light mode
   
 Emmet:
-   Nav section:   nav>div.logo>h1{TechMart}+button.hamburger#hamburger[aria-label="Toogle navigation" aria-expanded="false"]>span*3^ul#nav-menu>li*5>a^button#theme-toggle[aria-label="Toogle dark mode"]{🌙}
+   Nav section:   
+   nav>div.logo>h1{TechMart}+button.hamburger#hamburger[aria-label="Toogle navigation" aria-expanded="false"]>span*3^ul#nav-menu>li*5>a^button#theme-toggle[aria-label="Toogle dark mode"]{🌙}
 
    Main section: 
 
@@ -20,6 +19,7 @@ Emmet:
     main>header.hero>h1^section.featured-products#featured>h2+div.scroll-buttons>button#scroll-left+button#scroll-right^div.product-grid-wrapper>div.product-grid>article*10.product-card>img+div.card-content>h3+p
 
    New product Section:
+   
    section.new-product#new-product>h2+div.product-highlight>div.product-image>img^div.product-info>h3+p+button.buy-btn
 
     Gallery section:
